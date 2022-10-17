@@ -83,32 +83,16 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #FFFFFF;
-    background-color: #2196F3;
-    border-radius: 5px;
-    border: none;
-}
-.filtr .btn1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0,03em;
     color: #212121;
     background-color: #F5F4FA;
-    border: none;
     border-radius: 5px;
-   
-
+    border: none;
 }
+
 .filtr .btn:active {
     color: var(--barnd-color-aktyw);
 }
-.filtr .btn1:active {
-    color: var(--barnd-color-aktyw);
-}
+
 
 .obrazy .wyglad1 {
     font-family: 'Roboto';

@@ -222,7 +222,6 @@ body {
     list-style-type: none;
     display: flex;
     padding: 0;
-    margin: 0;
     justify-content: space-between;
     gap: 30px;
 
@@ -230,6 +229,10 @@ body {
 }
 .obrazki2-sek4 {
     max-width: 270px;
+
+}
+.inne {
+    margin: 0;
 }
 .akapit1 {
     font-family: 'Roboto';
@@ -237,9 +240,11 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,19;
-    text-align: left;
     letter-spacing: 0,03em;
     color: #212121;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .akapit2 {
     font-family: 'Roboto';
@@ -250,6 +255,7 @@ body {
     text-align: left;
     letter-spacing: 0,03em;
     color: #757575;
+    text-align: center;
 }
 .stopka {
     background-color: var(--brand-color-stopka);
