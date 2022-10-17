@@ -260,6 +260,11 @@ body {
 .stopka {
     background-color: var(--brand-color-stopka);
 }
+.stopka-content {
+    display: flex;
+    flex-direction: column;
+    
+}
 .logo span1 {
     color: #FFFFFF;
 }
@@ -271,9 +276,16 @@ body {
     line-height: 1,71;
     letter-spacing: 0,03em;
     color: #FFFFFF;
+    max-width: 246px;
+    padding-top: 20px;
+    margin-bottom: 9px;
 }
 .kontakt-stopka {
     list-style-type: none;
+   
+}
+.info1 {
+    margin-bottom: 9px;
 }
 .kontakt-stopka .info{
     font-family: 'Roboto';
@@ -284,6 +296,8 @@ body {
     letter-spacing: 0,03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    max-width: 231px;
+    
 }
 .info:hover,
 .info:focus {

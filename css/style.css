@@ -89,10 +89,10 @@ body {
     border: none;
 }
 
-.filtr .btn:active {
-    color: var(--barnd-color-aktyw);
+.filtr .btn:hover {
+    color: var(--brand-color);
+    background-color: var(--barnd-color-aktyw);
 }
-
 
 .obrazy .wyglad1 {
     font-family: 'Roboto';
