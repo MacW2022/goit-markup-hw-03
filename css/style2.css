@@ -175,10 +175,8 @@ body {
 .sekcja3 {
     background-color: var(--brand-color-sekcja2);
 }
-.sekcja3-content {
-    display: flex;
-    padding: 94px 0;
-   
+.sek3-content {
+    margin: 0 auto;
 }
 .tytul2 {
     font-family: 'Roboto';
@@ -189,8 +187,8 @@ body {
     text-align: center;
     letter-spacing: 0,03em;
     color: #212121;
+    display: flex;
     max-width: 352px;
-    
     
 }
 .obrazki1 {
