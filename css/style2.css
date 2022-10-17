@@ -194,6 +194,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 .obrazki-sek3 {
     max-width: 370px;
@@ -220,14 +221,15 @@ body {
 .obrazki2 {
     list-style-type: none;
     display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    gap: 30px;
 
+/* nie przesuwa mi obrazów w lewo */
 }
 .obrazki2-sek4 {
     max-width: 270px;
-    margin: 0 auto;
-    
-    
-   
 }
 .akapit1 {
     font-family: 'Roboto';
