@@ -287,11 +287,12 @@ body {
 .kontakt-stopka {
     list-style-type: none;
     padding: 0;
+    margin-bottom: 60px;
 }
 .info1 {
     margin-bottom: 9px;
 }
-.kontakt-stopka .info{
+.kontakt-stopka .info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
