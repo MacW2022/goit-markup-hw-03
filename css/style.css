@@ -19,7 +19,7 @@ body {
 }
 .header {
     background-color: var(--brand-color);
- 
+
 }
 .container {
     max-width: 1200px;
@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 .menu {
     display: flex;
@@ -67,7 +68,7 @@ body {
     color: #212121;
     text-decoration: none;
     padding: 10px;
-    
+
 }
 .social-links .link:active {
     color: var(--barnd-color-aktyw);
@@ -97,13 +98,14 @@ body {
     color: var(--barnd-color-aktyw);
 }
 
-
+.section {
+    padding: 94px 0;
+}
 .filtr {
     display: flex;
     align-items: center;
     justify-content:center;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .btn1 {
     font-family: 'Roboto';
@@ -198,6 +200,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 50px 0;
 }
 
 .obrazy .wyglad1 {
@@ -221,9 +224,7 @@ body {
     color: #757575;
     padding-bottom: 50px;
 }
-.obrazy .wyglad2:nth-child(n+7) {
-    padding-bottom: 114px;
-}
+
 .filtr {
     list-style-type: none;
 }
@@ -252,7 +253,7 @@ body {
 .stopka-content {
     display: flex;
     flex-direction: column;
-   
+
 }
 .logo1 {
     font-family: 'Raleway';
@@ -281,7 +282,7 @@ body {
     color: #FFFFFF;
     max-width: 246px;
     margin-bottom: 9px;
-    
+
 }
 .kontakt-stopka {
     list-style-type: none;
@@ -300,7 +301,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     max-width: 231px;
-    
+
 }
 .info:hover,
 .info:focus {
