@@ -6,6 +6,13 @@
     --brand-color-stopka: #2F303A;
     --brand-color-hover: #2196F3;
 }
+*,
+*::after,
+*::before {
+
+    margin:0;
+    padding:0;
+}
 body {
     color:#000000;
     background-color: #E5E5E5;
@@ -228,10 +235,10 @@ body {
 
 /* nie przesuwa mi obrazów w lewo */
 }
-.obrazki2-sek4 {
+/* .obrazki2-sek4 {
     max-width: 270px;
 
-}
+} */
 /* .inne {
     margin: 0;
 } */

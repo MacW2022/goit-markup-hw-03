@@ -5,77 +5,107 @@
     --barnd-color-aktyw: #2196F3;
 
 }
+*,
+*::after,
+*::before {
 
-
-body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #000000;
-   
+    margin:0;
+    padding:0;
 }
-
+body {
+    color:#000000;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+.header {
+    background-color: var(--brand-color);
+ 
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
 .logo {
     font-family: 'Raleway';
-    font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1,17;
+    font-size: 26px;
+    line-height: 1,19;
     letter-spacing: 0,03em;
-    text-decoration: none;
-}
-
-.logo .wyraz1 {
     color: #2196F3;
+    text-decoration: none;
+    display: flex;
+
 }
-.logo .wyraz2 {
+.logo span {
     color: #000000;
 }
-
 
 .social-links {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
-.social-links .link {
+.link {
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 14px;
     font-weight: 500;
-    line-height: 1,19;
+    font-size: 14px;
+    line-height: 1,14;
     letter-spacing: 0,02em;
-    text-decoration: none;
     color: #212121;
-}
-
-.social-links a:hover {
-
-    color: var(--barnd-color-aktyw);
+    text-decoration: none;
+    padding: 10px;
+    
 }
 .social-links .link:active {
     color: var(--barnd-color-aktyw);
 }
-.kontakt-naglowek {
-    list-style-type: none;
+.kontakt {
+    display: flex;
+    align-items: center;
 }
-.kontakt-naglowek .dane {
+.kontakt-dane {
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 14px;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    text-decoration: none;
     color: #757575;
+    text-decoration: none;
+    padding: 20px;
 }
-
-.kontakt-naglowek .dane:hover,
-.kontakt-naglowek .dane:focus {
-   
+.kontakt {
+    list-style-type: none;
+}
+.kontakt .kontakt-dane:active {
+    color: var(--barnd-color-aktyw);
+}
+.kontakt-dane:hover {
     color: var(--barnd-color-aktyw);
 }
 
-.kontakt-naglowek .dane:active {
-    color: var(--barnd-color-aktyw);
+
+.filtr {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
-.filtr .btn {
+.btn1 {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
@@ -87,11 +117,87 @@ body {
     background-color: #F5F4FA;
     border-radius: 5px;
     border: none;
+    padding: 6px 22px;
+    max-width: 121px;
+    margin-right: 8px;
 }
-
-.filtr .btn:hover {
+.btn2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 93px;
+    margin-right: 8px;
+}
+.btn3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 114px;
+    margin-right: 8px;
+}
+.btn4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 91px;
+    margin-right: 8px;
+}
+.btn5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 121px;
+    margin-right: 8px;
+}
+.filtr .btn1:hover,
+.filtr .btn2:hover,
+.filtr .btn3:hover,
+.filtr .btn4:hover,
+.filtr .btn5:hover {
     color: var(--brand-color);
     background-color: var(--barnd-color-aktyw);
+}
+.obrazy {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .obrazy .wyglad1 {
@@ -102,6 +208,8 @@ body {
     line-height: 2;
     letter-spacing: 0,06em;
     color: #212121;
+    padding-top: 20px;
+    padding-bottom: 4px;
 }
 .obrazy .wyglad2 {
     font-family: 'Roboto';
@@ -111,8 +219,11 @@ body {
     line-height: 1,9;
     letter-spacing: 0,03em;
     color: #757575;
+    padding-bottom: 50px;
 }
-
+.obrazy .wyglad2:nth-child(n+7) {
+    padding-bottom: 114px;
+}
 .filtr {
     list-style-type: none;
 }
@@ -138,42 +249,67 @@ body {
     background-color: var(--brand-color-footer);
 }
 
-.logo .wyraz1 {
-    color: #2196F3;
+.stopka-content {
+    display: flex;
+    flex-direction: column;
+   
 }
-.wyraz3 {
+.logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0,03em;
+    color: #2196F3;
+    text-decoration: none;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 145px;
+}
+.logo1 span1 {
     color: #FFFFFF;
 }
-
-.opisadresu {
+.adres-opis {
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 14px;
     font-weight: 400;
-    line-height: 1,17;
+    font-size: 14px;
+    line-height: 1,71;
     letter-spacing: 0,03em;
     color: #FFFFFF;
+    max-width: 246px;
+    margin-bottom: 9px;
+    
 }
 .kontakt-stopka {
     list-style-type: none;
+    padding: 0;
 }
-.kontakt-stopka .informacje {
+.info1 {
+    margin-bottom: 9px;
+}
+.kontakt-stopka .info{
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 14px;
     font-weight: 400;
-    line-height: 1,17;
+    font-size: 14px;
+    line-height: 1,71;
     letter-spacing: 0,03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-
-.kontakt-stopka .informacje:hover,
-.kontakt-stopka .informacje:focus {
+    max-width: 231px;
     
+}
+.info:hover,
+.info:focus {
+    color: var(--barnd-color-aktyw);
+}
+.kontakt-stopka .info:active {
     color: var(--barnd-color-aktyw);
 }
 
-.kontakt-stopka .informacje:active {
-    color: var(--barnd-color-aktyw);
-}
+
+
+
