@@ -1,0 +1,22 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+   
+    /* width: 100%;
+    max-width: 1000px;
+} */
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    flex-grow: 1;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+.login-icon {
+    width: 100px;
+    cursor: cell;
+}
