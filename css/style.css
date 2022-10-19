@@ -1,9 +1,13 @@
 :root {
     --brand-color: #FFFFFF;
-    --brand-color-main: #E5E5E5;
     --brand-color-footer: #2F303A;
     --barnd-color-aktyw: #2196F3;
-
+    --barnd-color-border1: #ECECEC;
+    --barnd-color-text: #212121;
+    --barnd-color-border2: #EEEEEE;
+    --brand-color-logo: #000000;
+    --brand-color-data: #757575;
+    --brand-color-btn: #F5F4FA;
 }
 *,
 *::after,
@@ -13,13 +17,11 @@
     padding:0;
 }
 body {
-    color:#000000;
-    background-color: #E5E5E5;
+    color: var(--barnd-color-text);
     margin: 0;
 }
 .header {
-    background-color: var(--brand-color);
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--barnd-color-border1);
 }
 .container {
     max-width: 1200px;
@@ -44,13 +46,13 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0,03em;
-    color: #2196F3;
+    color: var(--barnd-color-aktyw);
     text-decoration: none;
     display: flex;
 
 }
 .logo span {
-    color: #000000;
+    color: var(--brand-color-logo);
 }
 
 .social-links {
@@ -65,7 +67,7 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    color: #212121;
+    color: var(--barnd-color-text);
     text-decoration: none;
     padding: 10px;
 
@@ -73,28 +75,28 @@ body {
 .social-links .link:active {
     color: var(--barnd-color-aktyw);
 }
-.kontakt {
+.contact {
     display: flex;
     align-items: center;
 }
-.kontakt-dane {
+.contact-data {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    color: #757575;
+    color: var(--brand-color-data);
     text-decoration: none;
     padding: 20px;
 }
-.kontakt {
+.contact {
     list-style-type: none;
 }
-.kontakt .kontakt-dane:active {
+.contact .contact-data:active {
     color: var(--barnd-color-aktyw);
 }
-.kontakt-dane:hover {
+.contact-data:hover {
     color: var(--barnd-color-aktyw);
 }
 
@@ -115,8 +117,8 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
     border-radius: 5px;
     border: none;
     padding: 6px 22px;
@@ -131,8 +133,8 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
     border-radius: 5px;
     border: none;
     padding: 6px 22px;
@@ -147,8 +149,8 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
     border-radius: 5px;
     border: none;
     padding: 6px 22px;
@@ -163,8 +165,8 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
     border-radius: 5px;
     border: none;
     padding: 6px 22px;
@@ -179,8 +181,8 @@ body {
     line-height: 1,6;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
     border-radius: 5px;
     border: none;
     padding: 6px 22px;
@@ -195,7 +197,7 @@ body {
     color: var(--brand-color);
     background-color: var(--barnd-color-aktyw);
 }
-.obrazy {
+.pictures {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -203,37 +205,35 @@ body {
     gap: 30px;
 }
 
-.obrazy .wyglad1 {
+.pictures .look1 {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0,06em;
-    color: #212121;
+    color: var(--barnd-color-text);
     padding-top: 20px;
     padding-bottom: 4px;
 }
-.obrazy .wyglad2 {
+.pictures .look2 {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1,9;
     letter-spacing: 0,03em;
-    color: #757575;
+    color: var(--brand-color-data);
     padding-bottom: 20px;
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid var(--barnd-color-border2);
     
 }
 
 .filtr {
     list-style-type: none;
 }
-.kontakt {
-    list-style-type: none;
-}
-.obrazy {
+
+.pictures {
     list-style-type: none;
 }
 .btn {
@@ -242,20 +242,14 @@ body {
 .btn1 {
     cursor: pointer;
 }
-.naglowek {
-    background-color: var(--brand-color);
-}
-.srodek {
-    background-color: var(--brand-color);
-}
-.stopka {
+
+.footer {
     background-color: var(--brand-color-footer);
 }
-
-.stopka-content {
+.footer-content {
     display: flex;
     flex-direction: column;
-
+   
 }
 .logo1 {
     font-family: 'Raleway';
@@ -264,7 +258,7 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0,03em;
-    color: #2196F3;
+    color: var(--barnd-color-aktyw);
     text-decoration: none;
     display: flex;
     margin-top: 60px;
@@ -272,21 +266,21 @@ body {
     max-width: 145px;
 }
 .logo1 span1 {
-    color: #FFFFFF;
+    color: var(--brand-color);
 }
-.adres-opis {
+.adress-description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0,03em;
-    color: #FFFFFF;
+    color: var(--brand-color);
     max-width: 246px;
     margin-bottom: 9px;
 
 }
-.kontakt-stopka {
+.contact-footer {
     list-style-type: none;
     padding: 0;
     margin-bottom: 60px;
@@ -294,7 +288,7 @@ body {
 .info1 {
     margin-bottom: 9px;
 }
-.kontakt-stopka .info {
+.contact-footer .info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -310,7 +304,7 @@ body {
 .info:focus {
     color: var(--barnd-color-aktyw);
 }
-.kontakt-stopka .info:active {
+.contact-footer .info:active {
     color: var(--barnd-color-aktyw);
 }
 
