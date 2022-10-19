@@ -1,10 +1,12 @@
 :root {
     --brand-color: #FFFFFF;
-    --brand-color-sekcja1: #2F303A;
-    --brand-color-sekcja2: #E5E5E5;
-    --brand-color-sekcja4: #F5F4FA;
-    --brand-color-stopka: #2F303A;
+    --brand-color-section1: #2F303A;
+    --brand-color-section4: #F5F4FA;
+    --brand-color-footer: #2F303A;
     --brand-color-hover: #2196F3;
+    --brand-color-text: #212121;
+    --brand-color-logo: #000000;
+    --barnd-color-data: #757575;
 }
 *,
 *::after,
@@ -14,8 +16,7 @@
     padding:0; 
 }
 body {
-    color:#000000;
-    background-color: #E5E5E5;
+    color: var(--brand-color-tekst);
     margin: 0;
 }
 .header {
@@ -45,13 +46,13 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0,03em;
-    color: #2196F3;
+    color: var(--brand-color-hover);
     text-decoration: none;
     display: flex;
 
 }
 .logo span {
-    color: #000000;
+    color: var(--brand-color-logo);
 }
 
 .social-links {
@@ -66,7 +67,7 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    color: #212121;
+    color: var(--brand-color-text);
     text-decoration: none;
     padding: 10px;
     
@@ -74,42 +75,42 @@ body {
 .social-links .link:active {
     color: var(--brand-color-hover);
 }
-.kontakt {
+.contact {
     display: flex;
     align-items: center;
 }
-.kontakt-dane {
+.contact-data {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    color: #757575;
+    color: var(--barnd-color-data);
     text-decoration: none;
     padding: 20px;
 }
-.kontakt {
+.contact {
     list-style-type: none;
 }
-.kontakt .kontakt-dane:active {
+.contact .contact-data:active {
     color: var(--brand-color-hover);
 }
-.kontakt-dane:hover {
+.contact-data:hover {
     color: var(--brand-color-hover);
 }
 
-.sekcja1 {
-    background-color: var(--brand-color-sekcja1);
+.section1 {
+    background-color: var(--brand-color-section1);
     
 }
-.sekcja1-content {
+.section1-content {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 200px 0;
 }
-.tytul1 {
+.title1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -118,13 +119,13 @@ body {
     text-align: center;
     letter-spacing: 0,06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--brand-color);
     display: flex;
     max-width: 696px;
     
 }
 .btn {
-    background-color: #2196F3;
+    background-color: var(--brand-color-hover);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -133,7 +134,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0,06em;
-    color: #FFFFFF;
+    color: var(--brand-color);
     cursor: pointer;
     border: none;
     border-radius: 10%;
@@ -145,23 +146,23 @@ body {
 .btn:active {
     color: var(--brand-color-hover);
 }
-.sekcja2 {
+.section2 {
     background-color: var(--brand-color);
     padding: 94px 0;
 }
-.sekcja2-content {
+.section2-content {
     display: flex;
     align-items: center;
    
 }
-.tekst {
+.text {
     list-style-type: none;
 }
-.tekst {
+.text {
     display: flex;
     
 }
-.tekst-h3 {
+.text-h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -169,24 +170,24 @@ body {
     line-height: 1,14;
     letter-spacing: 0,03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--brand-color-text);
     max-width: 270px;
 }
-.tekst-p {
+.text-p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0,03em;
-    color: #757575;
+    color: var(--barnd-color-data);
     max-width: 270px;
 }
-.sekcja3 {
+.section3 {
     background-color: var(--brand-color);
 }
 
-.tytul2 {
+.title2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -194,28 +195,28 @@ body {
     line-height: 1,17;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
+    color: var(--brand-color-text);
     max-width: 352px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.obrazki1 {
+.picture {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 30px;
     padding: 0;
 }
-.obrazki-sek3 {
+.picture-sec3 {
     max-width: 370px;
     padding-bottom: 94px;
     
 }
-.sekcja4 {
-    background-color: var(--brand-color-sekcja4);
+.section4 {
+    background-color: var(--brand-color-section4);
     padding: 94px 0;
 }
-.tytul3 {
+.title3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -223,31 +224,31 @@ body {
     line-height: 1,17;
     text-align: center;
     letter-spacing: 0,03em;
-    color: #212121;
+    color: var(--brand-color-text);
     max-width: 210px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.obrazki2 {
+.picture2 {
     list-style-type: none;
     display: flex;
     padding: 0;
     justify-content: space-between;
     gap: 30px;
 }
-.akapit1 {
+.paragraph1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,19;
     letter-spacing: 0,03em;
-    color: #212121;
+    color: var(--brand-color-text);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
 }
-.akapit2 {
+.paragraph2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -255,14 +256,14 @@ body {
     line-height: 1,19;
     text-align: left;
     letter-spacing: 0,03em;
-    color: #757575;
+    color: var(--barnd-color-data);
     text-align: center;
   
 }
-.stopka {
-    background-color: var(--brand-color-stopka);
+.footer {
+    background-color: var(--brand-color-footer);
 }
-.stopka-content {
+.footer-content {
     display: flex;
     flex-direction: column;
    
@@ -274,7 +275,7 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0,03em;
-    color: #2196F3;
+    color: var(--brand-color-hover);
     text-decoration: none;
     display: flex;
     margin-top: 60px;
@@ -282,21 +283,21 @@ body {
     max-width: 145px;
 }
 .logo1 span1 {
-    color: #FFFFFF;
+    color: var(--brand-color);
 }
-.adres-opis {
+.adress-description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0,03em;
-    color: #FFFFFF;
+    color: var(--brand-color);
     max-width: 246px;
     margin-bottom: 9px;
     
 }
-.kontakt-stopka {
+.contact-footer {
     list-style-type: none;
     padding: 0;
     margin-bottom: 60px;
@@ -304,7 +305,7 @@ body {
 .info1 {
     margin-bottom: 9px;
 }
-.kontakt-stopka .info{
+.contact-footer .info{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -320,6 +321,6 @@ body {
 .info:focus {
     color: var(--brand-color-hover);
 }
-.kontakt-stopka .info:active {
+.contact-footer .info:active {
     color: var(--brand-color-hover);
 }
