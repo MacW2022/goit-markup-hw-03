@@ -11,7 +11,7 @@
 *::before {
 
     margin:0;
-    padding:0;
+    padding:0; 
 }
 body {
     color:#000000;
@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 .menu {
     display: flex;
@@ -138,13 +139,15 @@ body {
     border-radius: 10%;
     align-items: center;
     max-width: 200px;
-    
+    margin-top: 30px;
+    padding: 10px 41px;
 }
 .btn:active {
     color: var(--brand-color-hover);
 }
 .sekcja2 {
-    background-color: var(--brand-color-sekcja2);
+    background-color: var(--brand-color);
+    padding: 94px 0;
 }
 .sekcja2-content {
     display: flex;
@@ -180,7 +183,7 @@ body {
     max-width: 270px;
 }
 .sekcja3 {
-    background-color: var(--brand-color-sekcja2);
+    background-color: var(--brand-color);
 }
 
 .tytul2 {
@@ -194,7 +197,6 @@ body {
     color: #212121;
     max-width: 352px;
     margin: 0 auto;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 .obrazki1 {
@@ -211,6 +213,7 @@ body {
 }
 .sekcja4 {
     background-color: var(--brand-color-sekcja4);
+    padding: 94px 0;
 }
 .tytul3 {
     font-family: 'Roboto';
@@ -223,7 +226,6 @@ body {
     color: #212121;
     max-width: 210px;
     margin: 0 auto;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 .obrazki2 {
@@ -232,16 +234,7 @@ body {
     padding: 0;
     justify-content: space-between;
     gap: 30px;
-
-/* nie przesuwa mi obrazów w lewo */
 }
-/* .obrazki2-sek4 {
-    max-width: 270px;
-
-} */
-/* .inne {
-    margin: 0;
-} */
 .akapit1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -264,7 +257,7 @@ body {
     letter-spacing: 0,03em;
     color: #757575;
     text-align: center;
-    padding-bottom: 124px;
+  
 }
 .stopka {
     background-color: var(--brand-color-stopka);
