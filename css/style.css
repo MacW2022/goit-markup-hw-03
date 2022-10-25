@@ -12,7 +12,6 @@
 *,
 *::after,
 *::before {
-
     margin:0;
     padding:0;
 }
@@ -205,8 +204,15 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-basis: calc((100% - 60px) / 3);
     gap: 30px;
+}
+.border-look {
+   border-left: 1px solid var(--barnd-color-border2);
+   border-right: 1px solid var(--barnd-color-border2);
+   border-bottom: 1px solid var(--barnd-color-border2);
+   margin-top: -5px;
 }
 
 .pictures .look1 {
@@ -219,6 +225,8 @@ body {
     color: var(--barnd-color-text);
     padding-top: 20px;
     padding-bottom: 4px;
+    padding-left: 24px;
+    
 }
 .pictures .look2 {
     font-family: 'Roboto';
@@ -229,7 +237,7 @@ body {
     letter-spacing: 0,03em;
     color: var(--brand-color-data);
     padding-bottom: 20px;
-    border-bottom: 1px solid var(--barnd-color-border2);
+    padding-left: 24px;
     
 }
 
