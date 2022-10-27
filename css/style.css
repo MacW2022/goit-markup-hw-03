@@ -30,7 +30,7 @@ body {
 }
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
 }
@@ -43,8 +43,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-aktyw);
     text-decoration: none;
     display: flex;
@@ -68,8 +68,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--barnd-color-text);
     text-decoration: none;
     padding: 10px;
@@ -87,8 +87,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--brand-color-data);
     text-decoration: none;
     padding: 20px;
@@ -117,9 +117,9 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-text);
     background-color: var(--brand-color-btn);
     border-radius: 5px;
@@ -133,9 +133,9 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-text);
     background-color: var(--brand-color-btn);
     border-radius: 5px;
@@ -149,9 +149,9 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-text);
     background-color: var(--brand-color-btn);
     border-radius: 5px;
@@ -165,9 +165,9 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-text);
     background-color: var(--brand-color-btn);
     border-radius: 5px;
@@ -181,9 +181,9 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-text);
     background-color: var(--brand-color-btn);
     border-radius: 5px;
@@ -205,8 +205,11 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-basis: calc((100% - 60px) / 3);
     gap: 30px;
+}
+
+.pictures > li {
+    flex-basis: calc((100% - 60px) / 3);
 }
 .border-look {
    border-left: 1px solid var(--barnd-color-border2);
@@ -221,7 +224,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     color: var(--barnd-color-text);
     padding-top: 20px;
     padding-bottom: 4px;
@@ -233,8 +236,8 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,9;
-    letter-spacing: 0,03em;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
     color: var(--brand-color-data);
     padding-bottom: 20px;
     padding-left: 24px;
@@ -268,8 +271,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-aktyw);
     text-decoration: none;
     display: flex;
@@ -285,8 +288,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--brand-color);
     max-width: 246px;
     margin-bottom: 9px;
@@ -305,8 +308,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     max-width: 231px;

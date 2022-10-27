@@ -31,7 +31,7 @@ body {
 }
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
 }
@@ -44,8 +44,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--brand-color-hover);
     text-decoration: none;
     display: flex;
@@ -68,8 +68,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--brand-color-text);
     text-decoration: none;
     
@@ -86,8 +86,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--barnd-color-data);
     text-decoration: none;
 
@@ -117,9 +117,9 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,4;
+    line-height: 1.4;
     text-align: center;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--brand-color);
     display: flex;
@@ -132,10 +132,10 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     align-items: center;
     text-align: center;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     color: var(--brand-color);
     cursor: pointer;
     border: none;
@@ -166,19 +166,20 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,03em;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-text);
     max-width: 270px;
+    padding-bottom: 10px;
 }
 .text-p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-data);
     max-width: 270px;
 }
@@ -192,11 +193,11 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    max-width: 352px;
+    /* max-width: 352px; */
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -221,11 +222,11 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    max-width: 210px;
+    /* max-width: 210px; */
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -241,8 +242,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--brand-color-text);
     text-align: center;
     padding-top: 30px;
@@ -253,8 +254,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--barnd-color-data);
     text-align: center;
     padding-bottom: 30px;
@@ -272,8 +273,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--brand-color-hover);
     text-decoration: none;
     display: flex;
@@ -289,8 +290,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--brand-color);
     max-width: 246px;
     margin-bottom: 9px;
@@ -309,8 +310,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     max-width: 231px;
